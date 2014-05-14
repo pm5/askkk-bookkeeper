@@ -1,0 +1,663 @@
+{
+  "-JGMPB8dr2ENATZGqUgu" : {
+    ".priority" : 572.0,
+    "state" : {
+      "collecting" : "collecting",
+      "passed" : "passed"
+    },
+    "addressing" : {
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "upVotesCount" : 5,
+        "state" : "responded"
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "state" : "pending"
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "upVotesCount" : 19,
+        "state" : "responded",
+        "downVotesCount" : 1
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "state" : "responded"
+      },
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "category" : [ "運動休閒" ],
+    "votes_count" : 0,
+    "post_date" : {
+      "second" : 0,
+      "hour" : 0,
+      "year" : 2014,
+      "month" : "02",
+      "minute" : 0,
+      "day" : 23
+    },
+    "title" : "中山足球場的未來？",
+    "content" : [ "中山足球場為台北市第一座標準足球場，更是台灣少數符合國際賽事的專用足球場，但由於管理不善，居民印象也不佳，後北市府決定配合花博徵收配合封館三年，之後卻沒有歸還給足球使用，使得進駐中山的足協得搬遷，國家隊及足球團體都得使用田徑場與龍騰，更無法就地進行代表隊徵選及集訓，長年來於河堤球場進行代表隊集訓、遴選、及各級比賽。", "隨著台北基層足球人口越來越多，孩子們踢球逐漸成為風氣，各級聯賽、地方聯賽、足球課程對場地要求日益增多，面臨著大家必須搶著申請河濱球場，球場狀況也益發惡劣。", "走過世界級城市，除其文化豐富絢麗，體育方面設施更是完善，並非富麗堂皇，而是合理利用，場地設計上，以鄰近國家日本來說，大量使用人工草，並在場地設計上兼容兩種以上的運動(同個球場可使用11/7/5人足球及美式足球)。", "中山足球場在花博後，一直無法找到合理利用，這個花錢改建後的展館，需要不斷花納稅人的錢讓他變成青年旅館、農夫...或是一些天馬行空的用法。", "請問各位候選人，您對把中山撥回供足球運動使用有什麼見解或看法？" ],
+    "signatures_threshold" : 500,
+    "asker" : "1153888312",
+    "post_timestamp" : 1393084800000,
+    "deadline" : {
+      "second" : 0,
+      "hour" : 0,
+      "year" : 2014,
+      "month" : "03",
+      "minute" : 0,
+      "day" : 25
+    },
+    "deadline_timestamp" : 1395676800000,
+    "signatures_count" : 572,
+    "responses_count" : 2
+  },
+  "-JJ3hefmRlBKL8UgNju2" : {
+    ".priority" : "ended.00000010",
+    "state" : {
+      "collecting" : "collecting"
+    },
+    "addressing" : {
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "state" : "pending"
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "state" : "pending"
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "state" : "pending"
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "state" : "pending"
+      },
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "category" : [ "勞動" ],
+    "votes_count" : 0,
+    "post_date" : {
+      "second" : "16",
+      "hour" : "02",
+      "year" : 2014,
+      "month" : "03",
+      "minute" : "04",
+      "day" : "28"
+    },
+    "title" : "你當選後，要如何保障勞工的勞動權利而免於受雇主剝削？",
+    "content" : [ "現有的勞動基準法對勞工的工時、工資、休假等勞動權益已經有完整規範。但眾所周知，台灣勞工的工時過長、加班費又常遭雇主以責任制為藉口而不發給，請休假期等權益也常遭雇主或主管剝削。這些都是嚴重違反勞基法、侵害勞工權益，卻已讓普羅大眾都習以為常的現象，卻不見勞動主管機關拿出魄力、大刀闊斧地全面檢查企業違法情事，進而提出糾正、處罰等措施，反而放任一般企業經營者以剝削勞工權益的方式，達到節省營運成本的目的，讓台灣人的痛苦指數居高不下，過勞死的案例亦時有所聞，22K又形成了對於社會新鮮人、甚至一般青年的勞務報酬的禁錮枷鎖。這些都足見勞動主關機關做得不夠，人民需要政府更多作為！", "新任的台北市長，你上任後，要怎麼做？" ],
+    "signatures_threshold" : 500,
+    "asker" : "1239541657",
+    "post_timestamp" : 1395943456046,
+    "deadline" : {
+      "second" : "16",
+      "hour" : "02",
+      "year" : 2014,
+      "month" : "04",
+      "minute" : "04",
+      "day" : "27"
+    },
+    "deadline_timestamp" : 1398535456046,
+    "signatures_count" : 56,
+    "responses_count" : 0
+  },
+  "-JGKNZAEYltOvI6G92ti" : {
+    ".priority" : 328.0,
+    "state" : {
+      "collecting" : "collecting"
+    },
+    "addressing" : {
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "state" : "pending"
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "state" : "pending"
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "state" : "pending"
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "state" : "pending"
+      },
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "category" : [ "教育", "社會保障" ],
+    "votes_count" : 0,
+    "post_date" : {
+      "second" : 0,
+      "hour" : 0,
+      "year" : 2014,
+      "month" : "02",
+      "minute" : 0,
+      "day" : 23
+    },
+    "title" : "對國小、國中、高中甚至於大學目前的教育方法及課綱，您認為有更好、更利於學生們的方法及課綱嗎?",
+    "content" : [ "學生們在上完一天的課程之後,大部分都還要再去補習,他們有時間再來吸收跟消化這一整天所學的東西嗎?", "所有的學生都必須得要每一門科目都很強嗎?", "如果我的語文方面十分傑出,但是我的數理方面很差,但是理想中的大學的語文相關科系最低數理門檻我根本溝不上邊,那怎麼辦?", "國中小的學生課後該何去何從?學校的課後活動結束後,爸爸媽媽還沒有下班,怎麼辦?", "課綱微調過後,有辦法銜接嗎?", "怎麼辦?" ],
+    "signatures_threshold" : 500,
+    "asker" : "100002385219369",
+    "post_timestamp" : 1393084800000,
+    "deadline" : {
+      "second" : 0,
+      "hour" : 0,
+      "year" : 2014,
+      "month" : "03",
+      "minute" : 0,
+      "day" : 25
+    },
+    "deadline_timestamp" : 1395676800000,
+    "signatures_count" : 328,
+    "responses_count" : 0
+  },
+  "-JGKHutUzP1nspLCoL3E" : {
+    ".priority" : 534.0,
+    "state" : {
+      "collecting" : "collecting",
+      "passed" : "passed"
+    },
+    "addressing" : {
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "upVotesCount" : 5,
+        "state" : "responded",
+        "downVotesCount" : 3
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "state" : "pending"
+      },
+      "null" : {
+        "upVotesCount" : 3,
+        "downVotesCount" : 5
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "upVotesCount" : 12,
+        "state" : "responded",
+        "downVotesCount" : 1
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "upVotesCount" : 51,
+        "state" : "responded",
+        "downVotesCount" : 7
+      },
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "category" : [ "醫療", "預算和稅收", "社會保障" ],
+    "votes_count" : 0,
+    "post_date" : {
+      "second" : 0,
+      "hour" : 0,
+      "year" : 2014,
+      "month" : "02",
+      "minute" : 0,
+      "day" : 22
+    },
+    "title" : "如何處理馬英九擔任台北市長時所積欠之健保費問題? 請提出具體的還款計畫說明。",
+    "content" : [ "請提出對於台北市積欠健保費之看法，如何收拾前任市長留下的爛攤子?請問各位候選人滿意現任市長郝龍斌的還款計畫嗎?如果你當上市長，如何確保將來不會有類似積欠健保費之情形發生?" ],
+    "signatures_threshold" : 500,
+    "asker" : "505071370",
+    "post_timestamp" : 1392998400000,
+    "deadline" : {
+      "second" : 0,
+      "hour" : 0,
+      "year" : 2014,
+      "month" : "03",
+      "minute" : 0,
+      "day" : 24
+    },
+    "deadline_timestamp" : 1395590400000,
+    "signatures_count" : 534,
+    "responses_count" : 5
+  },
+  "-JLNJD93XaAG-ZVzutTR" : {
+    ".priority" : 1.398419811547E12,
+    "state" : {
+      "collecting" : "collecting"
+    },
+    "addressing" : {
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      }
+    },
+    "category" : [ "農業", "土地", "居住" ],
+    "votes_count" : 0,
+    "post_date" : {
+      "second" : "51",
+      "hour" : "17",
+      "year" : 2014,
+      "month" : "04",
+      "minute" : "56",
+      "day" : "25"
+    },
+    "title" : "uaoeuaoeuaoeueaou",
+    "content" : [ "tuneohutnoehuntoheunoheutneho" ],
+    "signatures_threshold" : 500,
+    "asker" : "816028916",
+    "post_timestamp" : 1398419811547,
+    "deadline" : {
+      "second" : "51",
+      "hour" : "17",
+      "year" : 2014,
+      "month" : "05",
+      "minute" : "56",
+      "day" : "25"
+    },
+    "deadline_timestamp" : 1401011811547,
+    "signatures_count" : 1,
+    "responses_count" : 0
+  },
+  "-JGKD68mlm6u06IugPjT" : {
+    ".priority" : 500.0,
+    "state" : {
+      "collecting" : "collecting",
+      "passed" : "passed"
+    },
+    "addressing" : {
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "state" : "responded",
+        "downVotesCount" : 1
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "state" : "pending"
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "state" : "pending"
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "upVotesCount" : 2,
+        "state" : "responded",
+        "downVotesCount" : 3
+      },
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "category" : [ "公民權利和自由", "人權", "開放政府" ],
+    "votes_count" : 0,
+    "post_date" : {
+      "second" : 0,
+      "hour" : 0,
+      "year" : 2014,
+      "month" : "02",
+      "minute" : 0,
+      "day" : 23
+    },
+    "title" : "憑什麼要把選票投給你? 理由是",
+    "content" : [ "近年來 人權似乎有很多問題\n公民活動很多\n卻始終看不到 得不到政府的明確回應及改革\n口號很美 行動往往石沉大海\n久了人們就忘了  政客也就解脫了\n試問如何保證公民擁有公民權力?  \n政府怎麼擔保日後可以聽進人民的聲音?" ],
+    "signatures_threshold" : 500,
+    "asker" : "100000083506188",
+    "post_timestamp" : 1393084800000,
+    "deadline" : {
+      "second" : 0,
+      "hour" : 0,
+      "year" : 2014,
+      "month" : "03",
+      "minute" : 0,
+      "day" : 25
+    },
+    "deadline_timestamp" : 1395676800000,
+    "signatures_count" : 500,
+    "responses_count" : 10
+  },
+  "-JGJkvFmuIfUGHQuLLCI" : {
+    ".priority" : 610.0,
+    "state" : {
+      "collecting" : "collecting",
+      "passed" : "passed"
+    },
+    "addressing" : {
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "upVotesCount" : 5,
+        "state" : "responded"
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "upVotesCount" : 13,
+        "state" : "responded",
+        "downVotesCount" : 6
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "upVotesCount" : 42,
+        "state" : "responded",
+        "downVotesCount" : 185
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "state" : "pending"
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "upVotesCount" : 77,
+        "state" : "responded",
+        "downVotesCount" : 1
+      },
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "category" : [ "貧窮", "老年人照顧", "環境" ],
+    "votes_count" : 0,
+    "post_date" : {
+      "second" : 0,
+      "hour" : 0,
+      "year" : 2014,
+      "month" : "02",
+      "minute" : 0,
+      "day" : 22
+    },
+    "title" : "請問對龍山寺附近遊民的解決辦法",
+    "content" : [ "龍山寺周遭有許多遊民聚集，且近年來數量不減反增\n遊民們的處境令人同情，但也帶來許多問題\n請問市長是否有具體方法協助這些遊民朋友，使他們能夠被安置或輔導？" ],
+    "signatures_threshold" : 500,
+    "asker" : "1498749368",
+    "post_timestamp" : 1392998400000,
+    "deadline" : {
+      "second" : 0,
+      "hour" : 0,
+      "year" : 2014,
+      "month" : "03",
+      "minute" : 0,
+      "day" : 24
+    },
+    "deadline_timestamp" : 1395590400000,
+    "signatures_count" : 610,
+    "responses_count" : 4
+  },
+  "-JLNI6nYFMlsTSXnW-NL" : {
+    ".priority" : 1.398419523235E12,
+    "state" : {
+      "collecting" : "collecting"
+    },
+    "addressing" : {
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "state" : "pending"
+      }
+    },
+    "category" : [ "農業", "土地", "居住" ],
+    "votes_count" : 0,
+    "post_date" : {
+      "second" : "03",
+      "hour" : "17",
+      "year" : 2014,
+      "month" : "04",
+      "minute" : "52",
+      "day" : "25"
+    },
+    "title" : "hehe",
+    "content" : [ "hohoh" ],
+    "signatures_threshold" : 500,
+    "asker" : "816028916",
+    "post_timestamp" : 1398419523235,
+    "deadline" : {
+      "second" : "03",
+      "hour" : "17",
+      "year" : 2014,
+      "month" : "05",
+      "minute" : "52",
+      "day" : "25"
+    },
+    "deadline_timestamp" : 1401011523235,
+    "signatures_count" : 2,
+    "responses_count" : 0
+  },
+  "-JLNHfRURBGrP3c2EQ9w" : {
+    ".priority" : 1.398419407189E12,
+    "state" : {
+      "collecting" : "collecting"
+    },
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      }
+    },
+    "category" : [ "農業", "居住", "社會住宅" ],
+    "votes_count" : 0,
+    "post_date" : {
+      "second" : "07",
+      "hour" : "17",
+      "year" : 2014,
+      "month" : "04",
+      "minute" : "50",
+      "day" : "25"
+    },
+    "title" : "哈囉哈囉",
+    "content" : [ "請問我可以問問題嗎？" ],
+    "signatures_threshold" : 500,
+    "asker" : "816028916",
+    "post_timestamp" : 1398419407189,
+    "deadline" : {
+      "second" : "07",
+      "hour" : "17",
+      "year" : 2014,
+      "month" : "05",
+      "minute" : "50",
+      "day" : "25"
+    },
+    "deadline_timestamp" : 1401011407189,
+    "signatures_count" : 0,
+    "responses_count" : 0
+  }
+}
