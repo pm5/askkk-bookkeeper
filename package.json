@@ -11,8 +11,8 @@
     "expect.js": "~0.3.1"
   },
   "scripts": {
-    "start": "node_modules/.bin/forever start -w app.js",
-    "stop": "node_modules/.bin/forever stop api.js",
+    "start": "node_modules/.bin/forever start -w bookkeeper.js",
+    "stop": "node_modules/.bin/forever stop bookkeeper.js",
     "test": "mocha"
   }
 }
