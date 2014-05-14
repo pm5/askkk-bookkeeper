@@ -29,7 +29,7 @@ describe('Questions count', function () {
   });
 
   it('should calculate the number', function (done) {
-    root.child('questions_count').once('value', function (snapshot) {
+    root.child('count/questions').once('value', function (snapshot) {
       expect(snapshot.val()).to.be(9);
       done();
     });
@@ -37,7 +37,7 @@ describe('Questions count', function () {
 
   it('should add the number when adding questions', function (done) {
     var number = 0;
-    root.child('questions_count').once('value', function (snapshot) {
+    root.child('count/questions').once('value', function (snapshot) {
       number = snapshot.val();
       var ref = root.child('questions').push();
       ref.set({
@@ -78,7 +78,7 @@ describe('Questions count', function () {
         "responses_count" : 0
       }, function (error) {
         setTimeout(function () {
-          root.child('questions_count').once('value', function (snapshot) {
+          root.child('count/questions').once('value', function (snapshot) {
             expect(snapshot.val()).to.be(number + 1);
             done();
           });
@@ -89,12 +89,12 @@ describe('Questions count', function () {
 
   it('should minus the number when removing questions', function (done) {
     var number = 0;
-    root.child('questions_count').once('value', function (snapshot) {
+    root.child('count/questions').once('value', function (snapshot) {
       number = snapshot.val();
       root.child('questions/-JGMPB8dr2ENATZGqUgu').remove(function (error) {
         expect(error).to.be(null);
         setTimeout(function () {
-          root.child('questions_count').once('value', function (snapshot) {
+          root.child('count/questions').once('value', function (snapshot) {
             expect(snapshot.val()).to.be(number - 1);
             done();
           });
