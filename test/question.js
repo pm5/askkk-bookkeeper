@@ -1,19 +1,8 @@
 var expect = require('expect.js');
 var fs = require('fs');
-var nconf = require('nconf');
-nconf.file({ file: 'config/askkk-bookkeeper.json' })
-  .defaults({
-    firebase: "https://askkkkk-dev.firebaseio.com/",
-    firebase_secret: "etZEKPiPhvkc7kKBoyAQDCe8vEr0ykp5nO5cMlgZ"
-  });
+var askkk = require('../lib/askkk');
 var default_wait = 2000;
-
-var root = new (require('firebase'))(nconf.get('firebase'));
-root.auth(nconf.get('firebase_secret'), function (error) {
-  if (error) {
-    console.log(error);
-  }
-});
+var root = askkk.root
 
 describe('Questions count', function () {
   this.timeout(10000);
