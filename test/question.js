@@ -2,10 +2,11 @@ var expect = require('expect.js');
 var fs = require('fs');
 var askkk = require('../lib/askkk');
 var default_wait = 2000;
+var default_timeout = 10000;
 var root = askkk.root
 
 describe('Questions count', function () {
-  this.timeout(10000);
+  this.timeout(default_timeout);
   beforeEach(function (done) {
     fs.readFile('test/questions.json', function (error, data) {
       expect(error).to.be(null);
