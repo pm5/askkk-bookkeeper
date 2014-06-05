@@ -58,7 +58,7 @@ describe('Questions count', function () {
         category: ['農業'],
       }, function (error) {
         setTimeout(function () {
-          root.child('categories/農業').once('value', function (snapshot) {
+          root.child('categories/環境').once('value', function (snapshot) {
             expect(snapshot.val()[ref.name()]).to.be(true);
             done();
           });
