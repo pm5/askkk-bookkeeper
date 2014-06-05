@@ -26,50 +26,40 @@ describe('Questions count', function () {
   })
 
   it('should add the number when adding questions', function (done) {
-    var number = 0;
     root.child('count/questions').once('value', function (snapshot) {
-      number = snapshot.val();
+      var number = snapshot.val();
       var ref = root.child('questions').push();
       ref.set({
-        "state" : {
-          "collecting" : "collecting"
-        },
-        "addressing" : {
-          "-JFuCJcAoUNFQY9NEHZ4" : {
-            ".priority" : 5.0,
-            "state" : "pending"
-          }
-        },
-        "category" : [ "農業", "居住", "社會住宅" ],
-        "votes_count" : 0,
-        "post_date" : {
-          "second" : "07",
-          "hour" : "17",
-          "year" : 2014,
-          "month" : "04",
-          "minute" : "50",
-          "day" : "25"
-        },
         "title" : "哈囉哈囉",
         "content" : [ "請問我可以問問題嗎？" ],
-        "signatures_threshold" : 500,
         "asker" : "816028916",
+        "category" : [ "農業", "居住", "社會住宅" ],
         "post_timestamp" : 1398419407189,
-        "deadline" : {
-          "second" : "07",
-          "hour" : "17",
-          "year" : 2014,
-          "month" : "05",
-          "minute" : "50",
-          "day" : "25"
-        },
         "deadline_timestamp" : 1401011407189,
-        "signatures_count" : 0,
-        "responses_count" : 0
       }, function (error) {
         setTimeout(function () {
           root.child('count/questions').once('value', function (snapshot) {
             expect(snapshot.val()).to.be(number + 1);
+            done();
+          });
+        }, default_wait);
+      });
+    });
+  });
+
+  it('should add to categories when adding questions', function (done) {
+    root.child('categories/農業').once('value', function (snapshot) {
+      var entries = snapshot.val();
+      if (null === entries) entries = {};
+      var ref = root.child('questions').push();
+      expect(entries[ref.name()]).to.be(undefined);
+      ref.set({
+        title: '哈囉',
+        category: ['農業'],
+      }, function (error) {
+        setTimeout(function () {
+          root.child('categories/農業').once('value', function (snapshot) {
+            expect(snapshot.val()[ref.name()]).to.be(true);
             done();
           });
         }, default_wait);
