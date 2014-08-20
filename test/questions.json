@@ -1,0 +1,714 @@
+{
+  "-JGJj9MVjeU7ezA_XC5R" : {
+    ".priority" : 1298.0,
+    "addressing" : {
+      "-JFuCKMKOH_eCspPxRe1" : {
+        "state" : "pending"
+      }
+    },
+    "asker" : "facekbook:100000114200317",
+    "category" : [ "貧窮", "經濟", "社會住宅" ],
+    "content" : [ "台北市淪為富豪炒房天堂, 每個認真的年輕人的經濟地獄,請問您的看法與解決方案" ],
+    "deadline_timestamp" : 1395590400000,
+    "meet_timestamp" : 1392998400000,
+    "post_timestamp" : 1392998400000,
+    "q_img" : "Labor_03_small",
+    "responses_count" : 0,
+    "signatures_count" : 1510,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting",
+      "passed" : "passed"
+    },
+    "title" : "你如何理解年輕人在台北市工作生活的巨大經濟壓力感?",
+    "votes_count" : 0
+  },
+  "-JGJkvFmuIfUGHQuLLCI" : {
+    ".priority" : 610.0,
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "downVotesCount" : 322,
+        "response_timestamp" : 1407924404264,
+        "state" : "responded",
+        "upVotesCount" : 30
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "downVotesCount" : 4,
+        "response_timestamp" : 1398076906782,
+        "state" : "responded",
+        "upVotesCount" : 264
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "downVotesCount" : 1,
+        "response_timestamp" : 1394710184807,
+        "state" : "responded",
+        "upVotesCount" : 109
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "downVotesCount" : 13,
+        "response_timestamp" : 1396414064323,
+        "state" : "responded",
+        "upVotesCount" : 21
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "downVotesCount" : 258,
+        "response_timestamp" : 1394045614653,
+        "state" : "responded",
+        "upVotesCount" : 49
+      },
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facekbook:1498749368",
+    "category" : [ "貧窮", "老年人照顧", "環境" ],
+    "content" : [ "龍山寺周遭有許多遊民聚集，且近年來數量不減反增\n遊民們的處境令人同情，但也帶來許多問題\n請問市長是否有具體方法協助這些遊民朋友，使他們能夠被安置或輔導？" ],
+    "deadline_timestamp" : 1395590400000,
+    "latest_response" : {
+      "name" : "連勝文",
+      "timestamp" : 1407923833213
+    },
+    "meet_timestamp" : 1394001341000,
+    "post_timestamp" : 1392998400000,
+    "q_img" : "Poverty_01_small",
+    "responses_count" : 6,
+    "signatures_count" : 801,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting",
+      "passed" : "passed"
+    },
+    "title" : "請問對龍山寺附近遊民的解決辦法",
+    "votes_count" : 0
+  },
+  "-JGJqnXoXbrVjJr_p9oh" : {
+    ".priority" : 1000.0,
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "downVotesCount" : 2,
+        "response_timestamp" : 1405737718551,
+        "state" : "responded",
+        "upVotesCount" : 224
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "downVotesCount" : 8,
+        "response_timestamp" : 1393928433034,
+        "state" : "responded",
+        "upVotesCount" : 374
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "downVotesCount" : 9,
+        "response_timestamp" : 1394021323287,
+        "state" : "responded",
+        "upVotesCount" : 172
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "downVotesCount" : 4,
+        "response_timestamp" : 1395043113843,
+        "state" : "responded",
+        "upVotesCount" : 42
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "downVotesCount" : 48,
+        "response_timestamp" : 1393952845395,
+        "state" : "responded",
+        "upVotesCount" : 129
+      },
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "downVotesCount" : 3,
+        "response_timestamp" : 1395814388002,
+        "state" : "responded",
+        "upVotesCount" : 43
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facekbook:1435102793",
+    "category" : [ "其他" ],
+    "content" : [ "選舉經費來源以及支出往往後續造成選後的貪腐以及酬庸。您是否願意將選舉相關財務，無論是收入或是支出部分接受民眾公開檢視？" ],
+    "deadline_timestamp" : 1395590400000,
+    "latest_response" : {
+      "name" : "柯文哲",
+      "timestamp" : 1405737718551
+    },
+    "meet_timestamp" : 1392998400000,
+    "post_timestamp" : 1392998400000,
+    "q_img" : "None_01_small",
+    "responses_count" : 6,
+    "signatures_count" : 1214,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting",
+      "passed" : "passed"
+    },
+    "title" : "您是否願意公開所有競選的收入以及支出提供民眾檢視？",
+    "votes_count" : 0
+  },
+  "-JGJspnpf8YvvS2JRXb7" : {
+    ".priority" : "ended.00000159",
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        "state" : "pending"
+      }
+    },
+    "asker" : "facekbook:100000114200317",
+    "category" : [ "制度改革", "其他" ],
+    "content" : [ "身為醫師,您對於參與政治擔任行政首長,期望您能提出不同於其他人的施政方針與想法" ],
+    "deadline_timestamp" : 1395590400000,
+    "post_timestamp" : 1392998400000,
+    "q_img" : "RegulatoryReform_01_small",
+    "responses_count" : 0,
+    "signatures_count" : 159,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting",
+      "ended" : "ended"
+    },
+    "title" : "您對於醫師參政的期許為何",
+    "votes_count" : 0
+  },
+  "-JGK-T5jHb2a-Kyi88sp" : {
+    ".priority" : 661.0,
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "response_timestamp" : 1406636490678,
+        "state" : "responded",
+        "upVotesCount" : 102
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "downVotesCount" : 1,
+        "response_timestamp" : 1398509375396,
+        "state" : "responded",
+        "upVotesCount" : 38
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "state" : "pending"
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "state" : "pending"
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "downVotesCount" : 90,
+        "response_timestamp" : 1393954212193,
+        "state" : "responded",
+        "upVotesCount" : 51
+      },
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facekbook:1789546607",
+    "category" : [ "都市更新", "居住", "經濟" ],
+    "content" : [ "我是\"碧潭都更自救會\"的總幹事,想請問新北市的朱立倫市長:\n都更遇到問題就踢皮球,那麼我們到底何時才回得了家呀!?" ],
+    "deadline_timestamp" : 1395590400000,
+    "latest_response" : {
+      "name" : "柯文哲",
+      "timestamp" : 1406636490678
+    },
+    "meet_timestamp" : 1393949829000,
+    "post_timestamp" : 1392998400000,
+    "q_img" : "UrbanRenewal_01_small",
+    "responses_count" : 3,
+    "signatures_count" : 775,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting",
+      "passed" : "passed"
+    },
+    "title" : "對居住正義的看法.",
+    "votes_count" : 0
+  },
+  "-JGKChdmAKN7rb0eBM_U" : {
+    ".priority" : "ended.00000347",
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "state" : "pending"
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "state" : "pending"
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "state" : "pending"
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "state" : "pending"
+      },
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facekbook:699201426",
+    "category" : [ "基礎建設" ],
+    "content" : [ "請問各位候選人，會規劃建設如荷蘭德國一類，完整俱有真正通勤功能的腳踏車道嗎？您贊成腳踏車到應該是基礎建設的一部份嗎？", "並非目前這類玩票性質，造成許多用路人與行人許多困擾的 U-Bike 路線，或是僅有休閒遊樂可有可無的河濱公園腳踏車道？" ],
+    "deadline_timestamp" : 1395676800000,
+    "post_timestamp" : 1393084800000,
+    "q_img" : "Infrastructure_01_small",
+    "responses_count" : 0,
+    "signatures_count" : 347,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting",
+      "ended" : "ended"
+    },
+    "title" : "建設腳踏車生態道路",
+    "votes_count" : 0
+  },
+  "-JGKCvMcN_pV8ll9oSOb" : {
+    ".priority" : 524.0,
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "downVotesCount" : 4,
+        "response_timestamp" : 1398078892348,
+        "state" : "responded",
+        "upVotesCount" : 39
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "state" : "pending"
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "state" : "pending"
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "state" : "pending"
+      },
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facekbook:844739267",
+    "category" : [ "公民權利和自由", "交通運輸" ],
+    "content" : [ "我的問題點在 \n1.市區\n  現行法規限制排氣量250cc以下(白牌)強制二段左轉且不得行駛禁行機車車道 也無法上快速道路\n  而250cc↑(黃紅牌)卻擁有跟汽車一樣的路權 無白牌的額外限制", "  市區限速大多數皆為50，何以紅黃牌可以如汽車般自如，白牌卻不行？\n  舉個例 : 宏佳騰機車有一台elite分成了兩個版本，elite300i(251cc)、elite250(249cc)\n          光陽機車也有一台venox分成了兩個版本，venox250(249cc)與260(252cc)\n          兩者配備性能差距極小，為何白牌卻不能自由使用道路，需要受特別的法規限制?", "2.由於白牌目前無完整路權，要上橋時需走機慢車道，需與自行車爭道，且如著名的\"重陽橋\"機車引道設計非常危險，\n  台北市往新北市方向需要經過一個完全沒有必要的360度大轉彎，又小又擠非常危險。\n  對於這樣的設計，你們有何看法？", "3.機車非慢車，卻被歸類為機慢車造成與自行車之類的慢車爭道，你們的看法又是如何？", "4.我不知道這屬不屬於台北市所管轄的部分，但是目前的汽車、機車發照門檻都過於簡易，駕照等同於有錢就能買的到，\n  也因過於簡易，無論是學科或是術科，都直接影響到了交通上的安全性。\n  對於過於簡易這點你們的看法是？", "5.關於停車的部分，目前看到的政府作為都是將機車趕出騎樓、人行道然後再劃設為數稀少的機車格為政策，意圖減少機車使用率\n  問題是，台北市已經相當壅擠，減少機車使用者 a.增加汽車使用者人數 b.增加大眾運輸人數\n  就a.來說 上下班已經相當壅擠，再增加行動不易的汽車會更壅擠，並無舒緩效果。 b.可能須加開公車or之類的，也會更加壅擠。\n  也就是減少機車使用率並不會造成交通更順暢，市區更漂亮。\n  我認為應該要讓機車進入人行道與騎樓並保持足夠的空間使行人通過，路上的機車格改汽車格，此法可以增加機車使用率提高交通順暢與減少汽機車違停。\n  對於這點你們的看法是？", "6.關於路平\n  路平直接影響到二輪使用者的安全性，機車、自行車並不如汽車有四顆輪子可以穩固地面，地面上的一點不平就會對騎士有極大的影響。\n  東補一個洞、西補一個溝，補上去的都跟原路面不合。對於路一直以來都無法鋪平你們的看法是？", "\n目前有一個\"中華民國機車黨\"致力於機車路權，我希望各候選人能跟他們談談。" ],
+    "deadline_timestamp" : 1395676800000,
+    "latest_response" : {
+      "name" : "馮光遠",
+      "timestamp" : 1398078892348
+    },
+    "meet_timestamp" : 1394722764623,
+    "post_timestamp" : 1393084800000,
+    "q_img" : "Transportation_04_small",
+    "responses_count" : 1,
+    "signatures_count" : 623,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting",
+      "passed" : "passed"
+    },
+    "title" : "對機車路權的看法",
+    "votes_count" : 0
+  },
+  "-JGKD68mlm6u06IugPjT" : {
+    ".priority" : 500.0,
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "downVotesCount" : 4,
+        "response_timestamp" : 1398161126869,
+        "state" : "responded",
+        "upVotesCount" : 107
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "state" : "pending"
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "state" : "pending"
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "state" : "pending"
+      },
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facekbook:100000083506188",
+    "category" : [ "公民權利和自由", "人權", "開放政府" ],
+    "content" : [ "近年來 人權似乎有很多問題\n公民活動很多\n卻始終看不到 得不到政府的明確回應及改革\n口號很美 行動往往石沉大海\n久了人們就忘了  政客也就解脫了\n試問如何保證公民擁有公民權力?  \n政府怎麼擔保日後可以聽進人民的聲音?" ],
+    "deadline_timestamp" : 1395676800000,
+    "latest_response" : {
+      "name" : "馮光遠",
+      "timestamp" : 1398161126869
+    },
+    "meet_timestamp" : 1397195726179,
+    "post_timestamp" : 1393084800000,
+    "q_img" : "CivilRightsAndLiberties_01_small",
+    "responses_count" : 1,
+    "signatures_count" : 602,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting",
+      "passed" : "passed"
+    },
+    "title" : "憑什麼要把選票投給你? 理由是",
+    "votes_count" : 0
+  },
+  "-JGKEi4-kFX6_nYS6PHc" : {
+    ".priority" : 982.0,
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "downVotesCount" : 14,
+        "response_timestamp" : 1405694383835,
+        "state" : "responded",
+        "upVotesCount" : 159
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "downVotesCount" : 15,
+        "response_timestamp" : 1393927642575,
+        "state" : "responded",
+        "upVotesCount" : 545
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "downVotesCount" : 10,
+        "response_timestamp" : 1394021480232,
+        "state" : "responded",
+        "upVotesCount" : 209
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "state" : "pending"
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "downVotesCount" : 156,
+        "response_timestamp" : 1393954837223,
+        "state" : "responded",
+        "upVotesCount" : 51
+      },
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facekbook:100000082735992",
+    "category" : [ "人權", "性別", "公民權利和自由" ],
+    "content" : [ "同志婚姻在近期從國外延燒至國內，但早在陳水扁市長、馬英九市長任內都在台北舉辦亞洲最大同志遊行，就連外國雜誌媒體都報導台北市是全球友善城市前幾名的城市，希望這個城市未來的領導者可以讓這項進步思想延續下去，且用更實際做法讓同志們知道台北市長力挺你！" ],
+    "deadline_timestamp" : 1395676800000,
+    "latest_response" : {
+      "name" : "柯文哲",
+      "timestamp" : 1405694383835
+    },
+    "meet_timestamp" : 1392998400000,
+    "post_timestamp" : 1393084800000,
+    "q_img" : "Gender_01_small",
+    "responses_count" : 4,
+    "signatures_count" : 1099,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting",
+      "passed" : "passed"
+    },
+    "title" : "台北身為台灣的政治經濟重心一向引領台灣前進的方向，請問各位市長候選人是否支持同志婚姻並願意宣傳通過同志婚姻的原因，且願意在當選後參與每一屆同志遊行，用實際參與方式讓台灣了解人權必須跟進？",
+    "votes_count" : 0
+  },
+  "-JGKGN7ZGhEh1o5XCZ79" : {
+    ".priority" : "ended.00000306",
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "state" : "pending"
+      },
+      "-JFxrLALbptrJBMly0oT" : {
+        ".priority" : 13.0,
+        "state" : "pending"
+      },
+      "-JFxrLFtnbu79YNmJR0M" : {
+        ".priority" : 1.0,
+        "state" : "pending"
+      },
+      "-JFxrLIuBPRNQOhjjc_s" : {
+        ".priority" : 2.0,
+        "state" : "pending"
+      },
+      "-JGUE8ttluk958WZ7X62" : {
+        ".priority" : 11.0,
+        "state" : "pending"
+      },
+      "-JGacaCDA_4KTPdN6TZW" : {
+        ".priority" : 3.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjF" : {
+        ".priority" : 4.0,
+        "state" : "pending"
+      },
+      "-JGacaCH8McbkupmmcjG" : {
+        ".priority" : 10.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9k" : {
+        ".priority" : 6.0,
+        "state" : "pending"
+      },
+      "-JGacaCIKJ56xKrIbw9l" : {
+        ".priority" : 7.0,
+        "state" : "pending"
+      },
+      "-JGacaCJqTNhCLCTLB0Q" : {
+        ".priority" : 12.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facekbook:100000147482704",
+    "category" : [ "交通運輸", "基礎建設", "制度改革" ],
+    "content" : [ "台北市自98年起開始編列60億預算執行路平專案至今，\n然而道路的維持及修護狀況非常差勁，大小主要道路滿是補丁、坑洞，\n此外人行道的平整性亦十分差勁，\n可以說執行績效非常之差，將60億的稅金如同投入水溝，", "如果你當選，請問你要如何維護台北市的道路？" ],
+    "deadline_timestamp" : 1395676800000,
+    "post_timestamp" : 1393084800000,
+    "q_img" : "Transportation_01_small",
+    "responses_count" : 0,
+    "signatures_count" : 306,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting",
+      "ended" : "ended"
+    },
+    "title" : "請問對於台北市的道路維護政策為何？",
+    "votes_count" : 0
+  }
+}
