@@ -17,8 +17,7 @@
     "signatures_count" : 1510,
     "signatures_threshold" : 500,
     "state" : {
-      "collecting" : "collecting",
-      "passed" : "passed"
+      "collecting" : "collecting"
     },
     "title" : "你如何理解年輕人在台北市工作生活的巨大經濟壓力感?",
     "votes_count" : 0
@@ -384,8 +383,7 @@
     "signatures_count" : 347,
     "signatures_threshold" : 500,
     "state" : {
-      "collecting" : "collecting",
-      "ended" : "ended"
+      "collecting" : "collecting"
     },
     "title" : "建設腳踏車生態道路",
     "votes_count" : 0

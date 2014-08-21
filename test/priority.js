@@ -12,10 +12,12 @@ describe('Priority', function () {
 
     fs.readFile('test/signature/signatures.json', function (error, data) {
       expect(error).to.be(null);
+      root.child('signaturess').remove();
       root.child('signatures').set(JSON.parse(data), function () {
         /* ----- */
         fs.readFile('test/signature/questions.json', function (error, data) {
           expect(error).to.be(null);
+          root.child('questions').remove();
           root.child('questions').set(JSON.parse(data), function () {
             setTimeout(function () {
               done();

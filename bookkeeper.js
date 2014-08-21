@@ -6,5 +6,5 @@ var priority = require('./lib/priority');
 
 //question.monitor(askkk);
 //user.monitor(askkk);
-//signature.monitor(askkk);
-//priority.monitor(askkk);
+signature.monitor(askkk);
+priority.monitor(askkk);
