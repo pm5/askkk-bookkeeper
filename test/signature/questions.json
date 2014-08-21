@@ -710,5 +710,232 @@
     },
     "title" : "請問對於台北市的道路維護政策為何？",
     "votes_count" : 0
+  },
+  "-JUggGBra5aYQ_D77rxD" : {
+    ".priority" : 1.0,
+    "addressing" : {
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facebook:100002894799057",
+    "category" : [ "公民權利和自由", "兩岸", "外交政策" ],
+    "content" : [ "我只是個小孩子  但就連一個小孩子也知道 這是錯的 不要因為新聞沒有報導就不理 等到真的報導了才出來太慢ㄌ 你們應該要出來給個回應並且解決\n北市警局放任暴民，101上演街頭暴力 http://youtu.be/huGeFLTNq9w 愛國同心會長期在台北市101 暴力攻擊並侮辱法輪功學員,近數月來，甚至與警方、路人起衝突那邊還一中國遊客幫他們打人或幫腔 請問你們會如何處理" ],
+    "deadline" : {
+      "day" : "18",
+      "hour" : "13",
+      "minute" : "15",
+      "month" : "09",
+      "second" : "32",
+      "year" : 2014
+    },
+    "deadline_timestamp" : 1411017332865,
+    "post_date" : {
+      "day" : "19",
+      "hour" : "13",
+      "minute" : "15",
+      "month" : "08",
+      "second" : "32",
+      "year" : 2014
+    },
+    "post_timestamp" : 1408425332865,
+    "q_img" : "None_01_small",
+    "responses_count" : 0,
+    "signatures_count" : 2,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting"
+    },
+    "title" : "小孩都知道錯的事 大人卻不出來解決??這對嗎?",
+    "votes_count" : 0
+  },
+  "-JUhgjhvKqKM-pS-ad2A" : {
+    ".priority" : 1.0,
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facebook:1163912972",
+    "category" : [ "環境", "交通運輸", "氣候變化" ],
+    "content" : [ "【請問未來的台北市長，當選後會如何推動自行車的交通政策，將台北打造成一個永續城市？】", "台灣的溫室氣體排放佔全球排名20名，雖然我國無法參與國際減碳承諾的簽署，卻也無法逃避氣候變遷所帶來的災難衝擊，仍舊應承擔全球暖化的減碳責任。而在全國溫室氣體排放中，交通運輸的排放高達20%，而在都市內的排放比例亦更高。此外，都會的空氣汙染，更高達80%來自汽機車廢氣排放，混濁的廢氣不只影響了市容，更殘害了市民的健康。儘管台北市擁有全國最方便的大眾交通運輸系統，但小客車數量仍不斷增加，從2008年的63.9萬部，一直成長到2013年的68.6萬部，台北道路雍塞依舊，浪費掉的能源及製造的汙染卻也不曾減少！", "過去，都市發展及道路規劃偏頗地以汽機車為中心，但面對全球暖化、油價高漲及氣候變遷的未來，台北必須改變其原有的邏輯，強化大眾運輸系統的建設外，更應該重視自行車在都市交通中的重要地位。台北，作為一個國際都市，應該要搭上國際這股「鐵馬革命」之風，讓過去一貫被視為休閒娛樂的自行車，能成為市民中短距離通勤移動的首選！目前U-bike的高使用率證明了台北亟需這種短程、便宜又低碳排的交通工具，但道路規劃對自行車不友善、自行車的地位不明、自行車專用道的缺乏、自行車道安教育的不足，使得大量自行車騎士選擇在人行道上行駛，讓自行車成為了行人的最大威脅！", "請問未來的台北市長，當選之後將如何改善現有的自行車與行人爭道的問題？如何減少台北市汽機車的總量，減少來自交通工具的空氣汙染問題？又將如何改造現有道路，讓更多市民可以不必擔憂安全問題，而選擇以自行車作為通勤工具？如何讓更多市民能夠以「捷運+公車+步行+自行車」的低碳排模式移動，取代高汙染、高碳排、易發生事故、易肇事的汽機車？" ],
+    "deadline" : {
+      "day" : "18",
+      "hour" : "17",
+      "minute" : "57",
+      "month" : "09",
+      "second" : "12",
+      "year" : 2014
+    },
+    "deadline_timestamp" : 1411034232297,
+    "post_date" : {
+      "day" : "19",
+      "hour" : "17",
+      "minute" : "57",
+      "month" : "08",
+      "second" : "12",
+      "year" : 2014
+    },
+    "post_timestamp" : 1408442232297,
+    "q_img" : "Transportation_04_small",
+    "responses_count" : 0,
+    "signatures_count" : 18,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting"
+    },
+    "title" : "如何推動自行車的交通政策，將台北打造成一個永續城市？",
+    "votes_count" : 0
+  },
+  "-JUiKRRsCYZ5QhQ63Mo7" : {
+    ".priority" : 1.0,
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facebook:100005251188380",
+    "category" : [ "環境", "開放政府", "居住" ],
+    "content" : [ "住宅區正中間，來了一家義大利餐廳，蓋起了違建(1F變2F，木造)，油煙天天往家裡灌。\n幾個住戶聯合檢舉(營業性廚房不能設在違建中)，幾個月過去，建管處總算排定拆除，當時真的好開心!\n一星期後，建管處網頁寫著\"議員召開協調會\"，拆除程序停止。", "致電建管處，問議員身分，想打通電話說明住戶困難，建管處只說是議會施壓，不能講。\n致電議會，說市議員個人行為，沒紀錄。\n致電各議員辦公室，每個助理都說查了，不是他們...", "投訴無門，半年過去了，違建依舊聳立。我連今年要用選票懲罰誰，都不知道...", "請問未來的市長，您是否願意推動資訊公開、抵禦假民代，讓我們有機會捍衛好政策，為新的市長辯護？" ],
+    "deadline" : {
+      "day" : "18",
+      "hour" : "20",
+      "minute" : "55",
+      "month" : "09",
+      "second" : "04",
+      "year" : 2014
+    },
+    "deadline_timestamp" : 1411044904065,
+    "post_date" : {
+      "day" : "19",
+      "hour" : "20",
+      "minute" : "55",
+      "month" : "08",
+      "second" : "04",
+      "year" : 2014
+    },
+    "post_timestamp" : 1408452904065,
+    "q_img" : "Housing_01_small",
+    "responses_count" : 0,
+    "signatures_count" : 3,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting"
+    },
+    "title" : "我想知道哪個議員召開協調會，擋住違建拆除，您上任後會推動資訊公開嗎？",
+    "votes_count" : 0
+  },
+  "-JUjt-ga7uMkV0sNFdQ1" : {
+    ".priority" : 1.0,
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facebook:1435857065",
+    "category" : [ "人權", "教育", "都市更新" ],
+    "content" : [ "想請問各位市長候選人, 最近中學課綱微調後的教科書就要上路了, 引起相當多的討論聲音. 這個問題在市政上可以連結到是否要像台南市一樣採取抗拒採用的態度, 而在市長候選人的中心思想上可以連結到對統獨與轉型正義的觀點, 這些見解對市政的直接影響就是台北市做為一個百年歷史的古城, 清治時期, 日治時期以及中華民國政府接收台灣後的228與白色恐怖等諸多沉重的歷史事件都發生在台北市, 如果沒有一個中心思想, 恐怕很難責令文化局對這些文物保存做出有理念的政策. 因此希望各位候選人就以下問題具體回答:", "1) 請說明您對台灣歷史的觀點, 以及可能的話簡單談論您基於這樣歷史觀點得到對轉型正義以及統獨或台灣未來走向的看法.\n2) 基於這樣的歷史觀點, 您是否同意課綱微調一案? 若不同意又該如何著手?\n3) 基於對歷史與轉型正義的認知, 台北市應該如何保存相關文物史跡. 更具體地說, 例如華光社區與旁邊的台北刑務所這個貫穿清治時期、日治時期與白色恐怖時期的歷史遺址與週邊社區的共生關係, 應如何營造出既有歷史保存意義又能再造社區過去跳蚤早市這樣的人文景觀?" ],
+    "deadline" : {
+      "day" : "19",
+      "hour" : "04",
+      "minute" : "10",
+      "month" : "09",
+      "second" : "04",
+      "year" : 2014
+    },
+    "deadline_timestamp" : 1411071004333,
+    "post_date" : {
+      "day" : "20",
+      "hour" : "04",
+      "minute" : "10",
+      "month" : "08",
+      "second" : "04",
+      "year" : 2014
+    },
+    "post_timestamp" : 1408479004333,
+    "q_img" : "Education_01_small",
+    "responses_count" : 0,
+    "signatures_count" : 2,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting"
+    },
+    "title" : "請問對課綱微調與台北歷史的看法?",
+    "votes_count" : 0
+  },
+  "-JUlj57j3nOUOvnqrXZg" : {
+    ".priority" : 1.0,
+    "addressing" : {
+      "-JFuCJcAoUNFQY9NEHZ4" : {
+        ".priority" : 5.0,
+        "state" : "pending"
+      },
+      "-JFuCKMKOH_eCspPxRe1" : {
+        ".priority" : 8.0,
+        "state" : "pending"
+      },
+      "-JFxrKQo3Qg19zsW73b1" : {
+        ".priority" : 9.0,
+        "state" : "pending"
+      }
+    },
+    "asker" : "facebook:1406747911",
+    "category" : [ "醫療" ],
+    "content" : [ "台灣正處於重度醫療崩壞的時期，五大皆空，醫病關係緊張，造成醫生不敢接高風險病患的狀況，且過度把醫療業視作服務業的一種，以膚淺的評鑑制度來為醫療行為評分，在眾多問題仍未解決的情況下，DRG的上路勢必又會造成更多的問題，對於醫師、醫院甚至病患都將造成更大的壓力，對於這樣的情形，想請問各候選人是否有什麼看法或可行的配套措施，除了增加醫學生和護理師這個治標不治本的爛方法以外。", "另外醫療資源分配不均的問題，制度上是不是出了哪些問題?", "醫療不應該是服務業，每位醫師都秉持著專業希望可以醫好每個病患，但醫師不是神，同樣一個病人，有可能不同醫師診斷的結果也不盡相同，SOP是死的，真的人體狀況複雜百變，有些人用SOP處理會活，有些人用SOP處理會死，這時候醫師又要面臨到底要救活病人還是要被告到脫褲的問題，這樣的醫療環境非常糟糕，且醫療法屬於刑事法，看看世界上有幾個國家的醫療法歸於刑事法，請問各位候選人對於這樣的狀況有何看法及解決方法。" ],
+    "deadline" : {
+      "day" : "19",
+      "hour" : "12",
+      "minute" : "45",
+      "month" : "09",
+      "second" : "59",
+      "year" : 2014
+    },
+    "deadline_timestamp" : 1411101959984,
+    "post_date" : {
+      "day" : "20",
+      "hour" : "12",
+      "minute" : "45",
+      "month" : "08",
+      "second" : "59",
+      "year" : 2014
+    },
+    "post_timestamp" : 1408509959984,
+    "q_img" : "Medical_01_small",
+    "responses_count" : 0,
+    "signatures_count" : 4,
+    "signatures_threshold" : 500,
+    "state" : {
+      "collecting" : "collecting"
+    },
+    "title" : "對台灣醫療崩壞、醫療資源分配不均及醫療行為除罪化的看法",
+    "votes_count" : 0
   }
 }

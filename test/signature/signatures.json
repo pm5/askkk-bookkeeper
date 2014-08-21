@@ -23338,5 +23338,131 @@
     "facebook:844739267" : {
       "timestamp" : 1392998400000
     }
+  },
+  "-JUggGBra5aYQ_D77rxD" : {
+    "facebook:100000061685769" : {
+      ".priority" : 1.408459003853E12,
+      "timestamp" : 1408459003853
+    },
+    "facebook:100002894799057" : {
+      ".priority" : 1.408425333551E12,
+      "timestamp" : 1408425333551
+    }
+  },
+  "-JUhgjhvKqKM-pS-ad2A" : {
+    "facebook:100000056894115" : {
+      ".priority" : 1.40845409816E12,
+      "timestamp" : 1408454098160
+    },
+    "facebook:100000144944179" : {
+      ".priority" : 1.408442645878E12,
+      "timestamp" : 1408442645878
+    },
+    "facebook:100000181193239" : {
+      ".priority" : 1.408467397159E12,
+      "timestamp" : 1408467397159
+    },
+    "facebook:100000288661576" : {
+      ".priority" : 1.40844433762E12,
+      "timestamp" : 1408444337620
+    },
+    "facebook:100000304151679" : {
+      ".priority" : 1.408461308512E12,
+      "timestamp" : 1408461308512
+    },
+    "facebook:100000321360880" : {
+      ".priority" : 1.408443542916E12,
+      "timestamp" : 1408443542916
+    },
+    "facebook:100000781851806" : {
+      ".priority" : 1.408442645167E12,
+      "timestamp" : 1408442645167
+    },
+    "facebook:100001275508127" : {
+      ".priority" : 1.408451296814E12,
+      "timestamp" : 1408451296814
+    },
+    "facebook:100002573537126" : {
+      ".priority" : 1.408453111209E12,
+      "timestamp" : 1408453111209
+    },
+    "facebook:100002683069120" : {
+      ".priority" : 1.408466026409E12,
+      "timestamp" : 1408466026409
+    },
+    "facebook:100002820760501" : {
+      ".priority" : 1.40844310338E12,
+      "timestamp" : 1408443103380
+    },
+    "facebook:100003378551815" : {
+      ".priority" : 1.408442863748E12,
+      "timestamp" : 1408442863748
+    },
+    "facebook:1039722249" : {
+      ".priority" : 1.408453114221E12,
+      "timestamp" : 1408453114221
+    },
+    "facebook:1163912972" : {
+      ".priority" : 1.408442233411E12,
+      "timestamp" : 1408442233411
+    },
+    "facebook:1425370979" : {
+      ".priority" : 1.408455356332E12,
+      "timestamp" : 1408455356332
+    },
+    "facebook:1605489981" : {
+      ".priority" : 1.408449279081E12,
+      "timestamp" : 1408449279081
+    },
+    "facebook:1822284471" : {
+      ".priority" : 1.408451465772E12,
+      "timestamp" : 1408451465772
+    },
+    "facebook:520434673" : {
+      ".priority" : 1.408500046147E12,
+      "timestamp" : 1408500046147
+    }
+  },
+  "-JUiKRRsCYZ5QhQ63Mo7" : {
+    "facebook:100000061685769" : {
+      ".priority" : 1.408459044971E12,
+      "timestamp" : 1408459044971
+    },
+    "facebook:100005251188380" : {
+      ".priority" : 1.408452905196E12,
+      "timestamp" : 1408452905196
+    },
+    "facebook:1614385999" : {
+      ".priority" : 1.408459533619E12,
+      "timestamp" : 1408459533619
+    }
+  },
+  "-JUjt-ga7uMkV0sNFdQ1" : {
+    "facebook:1435857065" : {
+      ".priority" : 1.408479004984E12,
+      "timestamp" : 1408479004984
+    },
+    "facebook:714661595" : {
+      ".priority" : 1.408518878516E12,
+      "timestamp" : 1408518878516
+    }
+  },
+  "-JUlj57j3nOUOvnqrXZg" : {
+    "facebook:1186163161" : {
+      ".priority" : 1.408518483141E12,
+      "timestamp" : 1408518483141
+    },
+    "facebook:1406747911" : {
+      ".priority" : 1.408509960535E12,
+      "timestamp" : 1408509960535
+    },
+    "facebook:1570974533" : {
+      ".priority" : 1.408514176942E12,
+      "timestamp" : 1408514176942
+    },
+    "facebook:567948216" : {
+      ".priority" : 1.408510172937E12,
+      "timestamp" : 1408510172937
+    }
   }
 }
