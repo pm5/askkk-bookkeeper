@@ -109,7 +109,7 @@
     "signatures_threshold" : 500,
     "state" : {
       "collecting" : "collecting",
-      "passed" : "passed"
+      "ended" : "ended"
     },
     "title" : "請問對龍山寺附近遊民的解決辦法",
     "votes_count" : 0
@@ -743,7 +743,7 @@
     "signatures_count" : 2,
     "signatures_threshold" : 500,
     "state" : {
-      "collecting" : "collecting"
+      "collecting" : ""
     },
     "title" : "小孩都知道錯的事 大人卻不出來解決??這對嗎?",
     "votes_count" : 0
