@@ -245,13 +245,6 @@
         ".priority" : 8.0,
         "state" : "pending"
       },
-      "-JFxrKQo3Qg19zsW73b1" : {
-        ".priority" : 9.0,
-        "downVotesCount" : 1,
-        "response_timestamp" : 1398509375396,
-        "state" : "responded",
-        "upVotesCount" : 38
-      },
       "-JFxrLALbptrJBMly0oT" : {
         ".priority" : 13.0,
         "state" : "pending"
@@ -787,7 +780,7 @@
     "post_timestamp" : 1408442232297,
     "q_img" : "Transportation_04_small",
     "responses_count" : 0,
-    "signatures_count" : 18,
+    "signatures_count" : 499,
     "signatures_threshold" : 500,
     "state" : {
       "collecting" : "collecting"

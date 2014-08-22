@@ -17,17 +17,27 @@ root.auth(nconf.get('firebase_secret'), function (error) {
 
 var fs = require('fs');
 
-fs.readFile('test/signature/signatures.json', function (error, data) {
-   root.child('signatures').remove();
-   root.child('signatures').set(JSON.parse(data), function () {
-     /* ----- */
-     fs.readFile('test/signature/questions.json', function (error, data) {
-       root.child('questions').remove();
-       root.child('questions').set(JSON.parse(data), function () {
-            console.log("Database reset complete.")
+var signatures_file_url = 'test/data/signatures.json';
+var questions_file_url = 'test/data/questions.json';
+var candidates_file_url = 'test/data/candidates.json';
 
-       });
-     });
-     /* ----- */
-   });
+fs.readFile(signatures_file_url, function (error, data) {
+    root.child('signatures').remove();
+    root.child('signatures').set(JSON.parse(data), function () {
+      /* ----- */
+      fs.readFile(questions_file_url, function (error, data) {
+        root.child('questions').remove();
+        root.child('questions').set(JSON.parse(data), function () {
+               /* ----- */
+               fs.readFile(candidates_file_url, function (error, data) {
+                 root.child('candidates').remove();
+                 root.child('candidates').set(JSON.parse(data), function () {
+                      console.log("Reset database completed.")
+                 });
+               });
+               /* ----- */
+        });
+      });
+      /* ----- */
+    });
 });
