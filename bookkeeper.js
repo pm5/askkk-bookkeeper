@@ -8,5 +8,5 @@ var addressed = require('./lib/addressed');
 //question.monitor(askkk);
 //user.monitor(askkk);
 signature.monitor(askkk);
-priority_and_state.monitor(askkk);
-addressed.monitor(askkk);
+//priority_and_state.monitor(askkk);
+//addressed.monitor(askkk);
