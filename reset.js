@@ -20,6 +20,7 @@ var fs = require('fs');
 var signatures_file_url = 'test/data/signatures.json';
 var questions_file_url = 'test/data/questions.json';
 var candidates_file_url = 'test/data/candidates.json';
+var candidate_addressed_file_url = 'test/data/candidate_addressed.json';
 
 fs.readFile(signatures_file_url, function (error, data) {
     root.child('signatures').remove();
@@ -31,8 +32,20 @@ fs.readFile(signatures_file_url, function (error, data) {
                /* ----- */
                fs.readFile(candidates_file_url, function (error, data) {
                  root.child('candidates').remove();
+
                  root.child('candidates').set(JSON.parse(data), function () {
-                      console.log("Reset database completed.")
+
+                           fs.readFile(candidate_addressed_file_url, function (error, data) {
+
+                                  root.child('candidate_addressed').remove();
+                                  root.child('candidate_addressed').set(JSON.parse(data), function () {
+                                      console.log("Reset database completed.")
+
+
+                                  });
+                            });
+
+
                  });
                });
                /* ----- */

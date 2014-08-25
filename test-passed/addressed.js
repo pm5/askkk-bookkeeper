@@ -1,7 +1,7 @@
 var expect = require('expect.js');
 var fs = require('fs');
 var askkk = require('../lib/askkk');
-var default_wait = 2000;
+var default_wait = 5000;
 var default_timeout = 10000;
 var root = askkk.root;
 var questionID = '-JUhgjhvKqKM-pS-ad2A';
@@ -10,7 +10,7 @@ var questionID = '-JUhgjhvKqKM-pS-ad2A';
 var signatures_file_url = 'test/data/signatures.json';
 var questions_file_url = 'test/data/questions.json';
 var candidates_file_url = 'test/data/candidates.json';
-
+var candidate_addressed_file_url = 'test/data/candidate_addressed.json';
 
 describe('Candidate addressed', function () {
   this.timeout(default_timeout);
@@ -19,25 +19,35 @@ describe('Candidate addressed', function () {
 
     fs.readFile(signatures_file_url, function (error, data) {
       expect(error).to.be(null);
-      //root.child('signatures').remove();
+
       root.child('signatures').set(JSON.parse(data), function () {
 
         fs.readFile(questions_file_url, function (error, data) {
-          expect(error).to.be(null);
-          //root.child('questions').remove();
-          root.child('questions').set(JSON.parse(data), function () {
+           expect(error).to.be(null);
 
-                 fs.readFile(candidates_file_url, function (error, data) {
-                   expect(error).to.be(null);
-                   //root.child('candidates').remove();
-                   root.child('candidates').set(JSON.parse(data), function () {
-                     setTimeout(function () {
-                       done();
-                     }, default_wait);
-                   });
-                 });
+           root.child('questions').set(JSON.parse(data), function () {
 
-          });
+                fs.readFile(candidates_file_url, function (error, data) {
+                     expect(error).to.be(null);
+                     root.child('candidates').set(JSON.parse(data), function () {
+                           fs.readFile(candidate_addressed_file_url, function (error, data) {
+                                  expect(error).to.be(null);
+
+
+                                  root.child('candidate_addressed').set(JSON.parse(data), function () {
+                                      setTimeout(function () {
+                                         done();
+                                      }, default_wait);
+
+
+                                  });
+                            });
+
+
+                     });
+                });
+
+           });
         });
 
       });
@@ -65,13 +75,14 @@ describe('Candidate addressed', function () {
       expect(snapshot.val()).to.be(5);
       done();
     });
+
   });
 
 
   it('[連勝文] should +1 when a new question passed the threshold', function (done) {
     root.child('questions/'+ questionID).once('value', function (snapshot) {
       var ref = root.child('signatures/'+ questionID + '/facebook:123456789').set({
-        "timestamp": 1408526103000
+        "timestamp": 123456789000
       }, function (error) {
         setTimeout(function () {
           root.child('candidates/-JFuCKMKOH_eCspPxRe1/addressed_count').once('value', function (snapshot) {
