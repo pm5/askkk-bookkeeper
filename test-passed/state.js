@@ -10,8 +10,8 @@ var collecting_questionID = '-JUggGBra5aYQ_D77rxD';
 
 
 //before testing, reset to this database.
-var signatures_file_url = 'test/signature/signatures.json';
-var questions_file_url = 'test/signature/questions.json';
+var signatures_file_url = 'test/data/signatures.json';
+var questions_file_url = 'test/data/questions.json';
 
 describe('State of [passed] question', function () {
   this.timeout(default_timeout);
@@ -24,7 +24,6 @@ describe('State of [passed] question', function () {
         /* ----- */
         fs.readFile(questions_file_url, function (error, data) {
           expect(error).to.be(null);
-          root.child('questions').remove();
           root.child('questions').set(JSON.parse(data), function () {
             setTimeout(function () {
               done();
@@ -64,7 +63,6 @@ describe('State of [ended] question', function () {
         /* ----- */
         fs.readFile(questions_file_url, function (error, data) {
           expect(error).to.be(null);
-          root.child('questions').remove();
           root.child('questions').set(JSON.parse(data), function () {
             setTimeout(function () {
               done();
@@ -97,7 +95,6 @@ describe('State of [collecting] question', function () {
         /* ----- */
         fs.readFile(questions_file_url, function (error, data) {
           expect(error).to.be(null);
-          root.child('questions').remove();
           root.child('questions').set(JSON.parse(data), function () {
             setTimeout(function () {
               done();

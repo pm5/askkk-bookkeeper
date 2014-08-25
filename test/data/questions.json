@@ -736,7 +736,7 @@
     "signatures_count" : 2,
     "signatures_threshold" : 500,
     "state" : {
-      "collecting" : ""
+      "collecting" : "collecting"
     },
     "title" : "小孩都知道錯的事 大人卻不出來解決??這對嗎?",
     "votes_count" : 0
