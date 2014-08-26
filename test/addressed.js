@@ -2,7 +2,7 @@ var expect = require('expect.js');
 var fs = require('fs');
 var askkk = require('../lib/askkk');
 var default_wait = 5000;
-var default_timeout = 5000;
+var default_timeout = 10000;
 var root = askkk.root;
 var questionID = '-JUhgjhvKqKM-pS-ad2A';
 
@@ -16,7 +16,7 @@ describe('Candidate addressed', function () {
   this.timeout(default_timeout);
 
   beforeEach(function (done) {//before every test.
-    root.child('signatures').remove(function(){
+
          console.log("1");
          fs.readFile(signatures_file_url, function (error, data) {
             expect(error).to.be(null);
@@ -29,35 +29,24 @@ describe('Candidate addressed', function () {
                         root.child('candidates').set(JSON.parse(data), function () {
                               console.log("3");
 
-                              setTimeout(function () {
-                                            console.log("5");
-                                            done();
-                                            console.log("6");
-                                         }, default_timeout);
-
-                              /*
                               fs.readFile(candidate_addressed_file_url, function (error, data) {
                                      console.log("4");
-                                     console.log("[!]" + error);
-                                     console.log("[O]" + data);
                                      expect(error).to.be(null);
-                                     //root.child('candidate_addressed').set(JSON.parse(data), function () {
+                                     root.child('candidate_addressed').set(JSON.parse(data), function () {
                                          setTimeout(function () {
-                                            console.log("5");
+                                            console.log("here");
                                             done();
-                                            console.log("6");
                                          }, default_timeout);
 
-                                    // });
+                                     });
                               });
-                              */
                         });
                  });
 
             });
          });
 
-    });
+
 
   });
 
