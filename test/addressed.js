@@ -2,7 +2,7 @@ var expect = require('expect.js');
 var fs = require('fs');
 var askkk = require('../lib/askkk');
 var default_wait = 5000;
-var default_timeout = 10000;
+var default_timeout = 15000;
 var root = askkk.root;
 var questionID = '-JUhgjhvKqKM-pS-ad2A';
 
@@ -16,35 +16,29 @@ describe('Candidate addressed', function () {
   this.timeout(default_timeout);
 
   beforeEach(function (done) {//before every test.
+      fs.readFile(candidate_addressed_file_url, function (error, data) {
+          expect(error).to.be(null);
+          //root.child('candidate_addressed').remove();
 
-         console.log("1");
-         fs.readFile(signatures_file_url, function (error, data) {
-            expect(error).to.be(null);
-            root.child('signatures').set(JSON.parse(data), function () {
-
-                 console.log("2");
-                 fs.readFile(candidates_file_url, function (error, data) {
-                        expect(error).to.be(null);
-
-                        root.child('candidates').set(JSON.parse(data), function () {
-                              console.log("3");
-
-                              fs.readFile(candidate_addressed_file_url, function (error, data) {
-                                     console.log("4");
-                                     expect(error).to.be(null);
-                                     root.child('candidate_addressed').set(JSON.parse(data), function () {
-                                         setTimeout(done, default_wait);
-
-                                     });
+              root.child('candidate_addressed').set(JSON.parse(data), function () {
+                  fs.readFile(candidates_file_url, function (error, data) {
+                      expect(error).to.be(null);
+                      root.child('candidates').set(JSON.parse(data), function () {
+                          fs.readFile(signatures_file_url, function (error, data) {
+                              expect(error).to.be(null);
+                              root.child('signatures').remove(function(){
+                                  root.child('signatures').set(JSON.parse(data), function () {
+                                      setTimeout(done, default_wait);
+                                  });
                               });
-                        });
-                 });
 
-            });
-         });
+                          });
+                      });
+                  });
+              });
 
 
-
+      });
   });
 
 

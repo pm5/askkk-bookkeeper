@@ -15,22 +15,23 @@ describe('Signatures Count', function () {
   beforeEach(function (done) {//before every test.
 
     fs.readFile(signatures_file_url, function (error, data) {
-      expect(error).to.be(null);
-      root.child('signatures').remove();
-      root.child('signatures').set(JSON.parse(data), function () {
+        expect(error).to.be(null);
+        root.child('signatures').remove(function(){
+            root.child('signatures').set(JSON.parse(data), function () {
+            fs.readFile(questions_file_url, function (error, data) {
+                expect(error).to.be(null);
+                    root.child('questions').set(JSON.parse(data), function () {
+                        setTimeout(function () {
+                            done();
+                         }, default_wait);
 
-        fs.readFile(questions_file_url, function (error, data) {
-          expect(error).to.be(null);
-          //root.child('questions').remove();
-          root.child('questions').set(JSON.parse(data), function () {
-              setTimeout(function () {
-                  done();
-               }, default_wait);
+                    });
+                });
 
-          });
+            });
+
         });
 
-      });
     });
 
   });
