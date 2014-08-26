@@ -33,10 +33,7 @@ describe('Candidate addressed', function () {
                                      console.log("4");
                                      expect(error).to.be(null);
                                      root.child('candidate_addressed').set(JSON.parse(data), function () {
-                                         setTimeout(function () {
-                                            console.log("here");
-                                            done();
-                                         }, default_timeout);
+                                         setTimeout(done, default_wait);
 
                                      });
                               });
