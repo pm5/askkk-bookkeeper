@@ -11,7 +11,7 @@ var questionID_almost_passed = '-JUhgjhvKqKM-pS-ad2A';
 var signatures_file_url = 'test/data/signatures.json';
 var questions_file_url = 'test/data/questions.json';
 
-describe('Signatures Count', function () {
+describe('Meettime', function () {
   this.timeout(default_timeout);
   beforeEach(function (done) {//before every test.
 

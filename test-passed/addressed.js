@@ -20,6 +20,7 @@ describe('Candidate addressed', function () {
     fs.readFile(signatures_file_url, function (error, data) {
       expect(error).to.be(null);
 
+      root.child('signatures').remove();
       root.child('signatures').set(JSON.parse(data), function () {
 
         fs.readFile(questions_file_url, function (error, data) {
@@ -86,8 +87,9 @@ describe('Candidate addressed', function () {
       }, function (error) {
         setTimeout(function () {
           root.child('candidates/-JFuCKMKOH_eCspPxRe1/addressed_count').once('value', function (snapshot) {
-            expect(snapshot.val()).to.be(8);
-            done();
+               expect(snapshot.val()).to.be(8);
+               done();
+
           });
         }, default_wait);
       });
