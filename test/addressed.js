@@ -78,7 +78,7 @@ describe('Candidate addressed', function () {
       }, function (error) {
           setTimeout(function () {
               root.child('candidates/-JFuCKMKOH_eCspPxRe1/addressed_count').once('value', function (data) {
-                   //console.log("I GOT:" + data.val());
+                   console.log("I GOT:" + data.val());
                    expect(data.val()).to.be(8);
                    done();
 

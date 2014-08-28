@@ -35,17 +35,17 @@ describe('Priority', function () {
 
   });
 
-  it('should equal to signatures count', function (done) {
+  it('should equal to - signatures count', function (done) {
       setTimeout(function () {
           root.child('questions/'+ questionID).once('value', function (snapshot) {
-            expect(snapshot.getPriority()).to.be(1509);
+            expect(snapshot.getPriority()).to.be(-1509);
             done();
           });
       },  default_wait);
 
   })
 
-  it('should +2 when adding two signatures.', function (done) {
+  it('number should +2 when adding two signatures.', function (done) {
 
       root.child('signatures/'+ questionID +"/facebook:1406747912").set({
          "timestamp": 1408526103000
@@ -56,7 +56,7 @@ describe('Priority', function () {
 
           setTimeout(function () {
               root.child('questions/'+ questionID).once('value', function (snapshot) {
-                  expect(snapshot.getPriority()).to.be(1511);
+                  expect(snapshot.getPriority()).to.be(-1511);
                   done();
               });
           },  default_wait);
@@ -66,12 +66,12 @@ describe('Priority', function () {
 
   });
 
-  it('should -1 when removing a signature.', function (done) {
+  it('number should -1 when removing a signature.', function (done) {
       root.child('signatures/'+ questionID + '/facebook:1406747911').remove(function (error) {
         expect(error).to.be(null);
         setTimeout(function () {
           root.child('questions/'+ questionID).once('value', function (snapshot) {
-            expect(snapshot.getPriority()).to.be(1508);
+            expect(snapshot.getPriority()).to.be(-1508);
             done();
           });
         }, default_wait);

@@ -37,10 +37,12 @@ describe('Meettime', function () {
   });
 
   it('should calculate the number and equal to the "signatures threshold" signature time.', function (done) {
-    root.child('questions/'+ questionID_passed + '/meet_timestamp').once('value', function (snapshot) {
-         expect(snapshot.val()).to.be(1394722764623);
-         done();
-    });
+    setTimeout(function () {
+        root.child('questions/'+ questionID_passed + '/meet_timestamp').once('value', function (snapshot) {
+             expect(snapshot.val()).to.be(1394722764623);
+             done();
+        });
+    }, default_wait);
   })
 
   it('should calculate when a new question passed the threshold', function (done) {
