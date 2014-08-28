@@ -1,8 +1,8 @@
 var expect = require('expect.js');
 var fs = require('fs');
 var askkk = require('../lib/askkk');
-var default_wait = 2000;
-var default_timeout = 10000;
+var default_wait = 5000;
+var default_timeout = 12000;
 var root = askkk.root;
 var questionID = '-JGJj9MVjeU7ezA_XC5R';
 
@@ -13,11 +13,10 @@ var questions_file_url = 'test/data/questions.json';
 describe('Priority', function () {
   this.timeout(default_timeout);
   beforeEach(function (done) {//before every test.
+    root.child('signatures').remove();
 
     fs.readFile(signatures_file_url, function (error, data) {
       expect(error).to.be(null);
-
-      root.child('signatures').remove();
 
       root.child('signatures').set(JSON.parse(data), function () {
 
@@ -37,10 +36,13 @@ describe('Priority', function () {
   });
 
   it('should equal to signatures count', function (done) {
-      root.child('questions/'+ questionID).once('value', function (snapshot) {
-        expect(snapshot.getPriority()).to.be(1509);
-        done();
-      });
+      setTimeout(function () {
+          root.child('questions/'+ questionID).once('value', function (snapshot) {
+            expect(snapshot.getPriority()).to.be(1509);
+            done();
+          });
+      },  default_wait);
+
   })
 
   it('should +2 when adding two signatures.', function (done) {
@@ -53,11 +55,11 @@ describe('Priority', function () {
          }, function (error) {
 
           setTimeout(function () {
-             root.child('questions/'+ questionID).once('value', function (snapshot) {
-              expect(snapshot.getPriority()).to.be(1511);
-               done();
-             });
-          }, default_wait);
+              root.child('questions/'+ questionID).once('value', function (snapshot) {
+                  expect(snapshot.getPriority()).to.be(1511);
+                  done();
+              });
+          },  default_wait);
 
          });
       });

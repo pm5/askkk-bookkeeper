@@ -22,25 +22,27 @@ var questions_file_url = 'test/data/questions.json';
 var candidates_file_url = 'test/data/candidates.json';
 var candidate_addressed_file_url = 'test/data/candidate_addressed.json';
 
-fs.readFile(signatures_file_url, function (error, data) {
-    root.child('signatures').remove();
-    root.child('signatures').set(JSON.parse(data), function () {
+root.child('candidate_addressed').remove();
+root.child('questions').remove();
+root.child('candidates').remove();
+root.child('signatures').remove();
+
+fs.readFile(candidate_addressed_file_url, function (error, data1) {
+
+    root.child('candidate_addressed').set(JSON.parse(data1), function () {
       /* ----- */
-      fs.readFile(questions_file_url, function (error, data) {
-        root.child('questions').remove();
-        root.child('questions').set(JSON.parse(data), function () {
+      fs.readFile(questions_file_url, function (error, data2) {
+
+        root.child('questions').set(JSON.parse(data2), function () {
                /* ----- */
-               fs.readFile(candidates_file_url, function (error, data) {
-                 root.child('candidates').remove();
+               fs.readFile(candidates_file_url, function (error, data3) {
 
-                 root.child('candidates').set(JSON.parse(data), function () {
+                 root.child('candidates').set(JSON.parse(data3), function () {
 
-                           fs.readFile(candidate_addressed_file_url, function (error, data) {
+                           fs.readFile(signatures_file_url, function (error, data4) {
 
-                                  root.child('candidate_addressed').remove();
-                                  root.child('candidate_addressed').set(JSON.parse(data), function () {
+                                  root.child('signatures').set(JSON.parse(data4), function () {
                                       console.log("Reset database completed.")
-
 
                                   });
                             });

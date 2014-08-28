@@ -18,8 +18,7 @@ describe('Candidate addressed', function () {
   beforeEach(function (done) {//before every test.
       fs.readFile(candidate_addressed_file_url, function (error, data) {
           expect(error).to.be(null);
-          //root.child('candidate_addressed').remove();
-
+              //root.child('candidate_addressed').remove();
               root.child('candidate_addressed').set(JSON.parse(data), function () {
                   fs.readFile(candidates_file_url, function (error, data) {
                       expect(error).to.be(null);
@@ -43,40 +42,48 @@ describe('Candidate addressed', function () {
 
 
   it('[連勝文] should equal to real addressed', function (done) {
-    root.child('candidates/-JFuCKMKOH_eCspPxRe1/addressed_count').once('value', function (snapshot) {
-      expect(snapshot.val()).to.be(7);
-      done();
-    });
+    setTimeout(function () {
+       root.child('candidates/-JFuCKMKOH_eCspPxRe1/addressed_count').once('value', function (snapshot) {
+         expect(snapshot.val()).to.be(7);
+         done();
+       });
+    }, default_wait);
   })
 
   it('[柯文哲] should equal to real addressed', function (done) {
-    root.child('candidates/-JFuCJcAoUNFQY9NEHZ4/addressed_count').once('value', function (snapshot) {
-      expect(snapshot.val()).to.be(6);
-      done();
-    });
+    setTimeout(function () {
+       root.child('candidates/-JFuCJcAoUNFQY9NEHZ4/addressed_count').once('value', function (snapshot) {
+         expect(snapshot.val()).to.be(6);
+         done();
+       });
+    }, default_wait);
   });
 
   it('[馮光遠] should equal to real addressed', function (done) {
-    root.child('candidates/-JFxrKQo3Qg19zsW73b1/addressed_count').once('value', function (snapshot) {
-      expect(snapshot.val()).to.be(5);
-      done();
-    });
+
+    setTimeout(function () {
+       root.child('candidates/-JFxrKQo3Qg19zsW73b1/addressed_count').once('value', function (snapshot) {
+         expect(snapshot.val()).to.be(5);
+         done();
+       });
+    }, default_wait);
 
   });
 
 
   it('[連勝文] should +1 when a new question passed the threshold', function (done) {
     root.child('questions/'+ questionID).once('value', function (snapshot) {
-      var ref = root.child('signatures/'+ questionID + '/facebook:123456789').set({
+      var ref = root.child('signatures/'+ questionID + '/facebook:1234567891234').set({
         "timestamp": 123456789000
       }, function (error) {
-        setTimeout(function () {
-          root.child('candidates/-JFuCKMKOH_eCspPxRe1/addressed_count').once('value', function (snapshot) {
-               expect(snapshot.val()).to.be(8);
-               done();
+          setTimeout(function () {
+              root.child('candidates/-JFuCKMKOH_eCspPxRe1/addressed_count').once('value', function (data) {
+                   //console.log("I GOT:" + data.val());
+                   expect(data.val()).to.be(8);
+                   done();
 
-          });
-        }, default_wait);
+              });
+          }, default_wait);
       });
     });
   });

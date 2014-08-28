@@ -2,7 +2,7 @@ var expect = require('expect.js');
 var fs = require('fs');
 var askkk = require('../lib/askkk');
 var default_wait = 5000;
-var default_timeout = 10000;
+var default_timeout = 12000;
 var root = askkk.root;
 var questionID = '-JGJj9MVjeU7ezA_XC5R';
 
@@ -21,6 +21,7 @@ describe('Signatures Count', function () {
             fs.readFile(questions_file_url, function (error, data) {
                 expect(error).to.be(null);
                     root.child('questions').set(JSON.parse(data), function () {
+
                         setTimeout(function () {
                             done();
                          }, default_wait);
@@ -37,10 +38,13 @@ describe('Signatures Count', function () {
   });
 
   it('should calculate the number and equal to signatures count.', function (done) {
-    root.child('questions/'+ questionID + '/signatures_count').once('value', function (snapshot) {
-      expect(snapshot.val()).to.be(1509);
-      done();
-    });
+    setTimeout(function () {
+       root.child('questions/'+ questionID + '/signatures_count').once('value', function (snapshot) {
+         expect(snapshot.val()).to.be(1509);
+         done();
+       });
+    }, default_wait);
+
   })
 
   it('should +2 when adding two signatures.', function (done) {
